@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wear+ther</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>오늘 뭐입지?</h1>
+        <span class="location">대구 수성구</span>
+        <div class="today">
+          <img class="weather" src="image/weather/clear.svg">
+          <span class="temperature">26˚</span>
+        </div>
+        <div class="wear_wrapper box">
+          <p class="wear_txt">반팔, 얇은 셔츠, 반바지, 면바지</p>
+          <div class="wear_wrap">
+            <span>27~23</span>
+            <div class="clothes_wrap">
+              <img src="image/wear/Asset 1.svg">
+              <img src="image/wear/Asset 2.svg">
+              <img src="image/wear/Asset 3.svg">
+            </div>
+          </div>
+        </div>
+        <div class="dust_wrapper box">
+          <div class="dust_wrap">
+            <span class="fine dust">미세먼지</span>
+            <!-- <span class="con normal"><span class="material-symbols-outlined"> mood </span>좋음</span> -->
+            <span class="con normal"><span class="material-symbols-outlined"> sentiment_satisfied</span>보통</span>
+          </div>
+          <span class="line"></span>
+          <div class="dust_wrap">
+            <span class="ultrafine dust">초미세먼지</span>
+            <span class="con bad"><span class="material-symbols-outlined"> sentiment_dissatisfied </span>나쁨</span>
+          </div>
+        </div>
+        <p class="copyright">기상청 제공</p>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

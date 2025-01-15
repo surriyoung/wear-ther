@@ -1,0 +1,107 @@
+img.weather {
+  width: 74px;
+  height: 50px;
+}
+.clothes_wrap img {
+  height: 50px;
+}
+.container {
+  width: 393px;
+  height: 852px;
+  margin: 0 auto;
+  background: rgb(250, 251, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 251, 255, 1) 0%,
+    rgba(250, 251, 255, 1) 50%,
+    rgba(250, 251, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container h1 {
+  font-size: 32px;
+}
+.container .location {
+  font-size: 12px;
+  margin: 50px 0;
+}
+.container .today {
+  width: 95px;
+  height: 71px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.container .today .weather {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .today .temperature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+.container .box {
+  width: 100%;
+  padding: 25px 20px;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  margin-bottom: 15px;
+}
+.container .wear_wrapper {
+  height: 155px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .wear_wrapper .wear_txt {
+  font-size: 20px;
+}
+.container .wear_wrapper .wear_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container .wear_wrapper .wear_wrap > span {
+  font-size: 20px;
+  color: #e4e4e4;
+}
+.container .wear_wrapper .wear_wrap .clothes_wrap {
+  display: flex;
+  column-gap: 15px;
+}
+.container .dust_wrapper .line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #000;
+  flex-shrink: 0;
+}
+.container .dust_wrapper .dust_wrap {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.container .dust_wrapper .dust_wrap .con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .dust_wrapper .dust_wrap span.good {
+  color: green;
+}
+.container .dust_wrapper .dust_wrap span.normal {
+  color: orange;
+}
+.container .dust_wrapper .dust_wrap span.bad {
+  color: red;
+}
